@@ -1,0 +1,152 @@
+.homepage{
+position: relative;
+width: 414px;
+height: 896px;
+left: 500px;
+background: #FFFFFF;
+}
+.header{
+    position: absolute;
+    width: 414px;
+    height: 176px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(138.73deg, #429690 -4.35%, #2A7C76 100.15%);
+    
+}
+.balance-box{
+    position: absolute;
+width: 374px;
+height: 201px;
+left: 18px;
+top: 47px;
+
+background: #2F7E79;
+border-radius: 20px;
+}
+.total-balance-text{
+    width: 150px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 45px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.total-balance-money{
+    position: absolute;
+width: 165px;
+height: 36px;
+
+top: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+.money-box{
+    position: absolute;
+width: 356px;
+height: 83.42px;
+left: 12px;
+top: 95px;
+opacity: 0.8;
+border-radius: 20px;
+}
+.income-text{
+    position: absolute;
+width: 111px;
+height: 24px;
+left: 25px;
+top: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 19px;
+letter-spacing: -0.05em;
+
+color: #D0E6E4;
+}
+.income-moneytext{
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left: 25px;
+    top: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+.exp-text{
+    position: absolute;
+width: 111px;
+height: 24px;
+left: 195px;
+top: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+
+text-align: right;
+letter-spacing: -0.05em;
+
+color: #D0E6E4;
+}
+.exp-moneytext{
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left: 194px;
+    top: 38px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.05em;
+    
+    color: #F95B51;
+}
+.tramsac-his{
+    width: 175px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-transform: capitalize;
+color: #222222;
+flex: none;
+order: 0;
+flex-grow: 0;
+}

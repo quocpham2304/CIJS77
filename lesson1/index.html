@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+//bai1
+function daonguoc() {
+    let aa = "abcdef";
+    let chuoikytu = aa.split("");
+    let chuoidaonguoc = chuoikytu.reverse();
+    let chuoimoi = chuoidaonguoc.join("");
+    
+    console.log(chuoimoi);
+}
+daonguoc()
+//bai2
+function trunglap() {
+    let aa2 = [1, 2, 3, 5, 4, 2, 6, 4 , 6,];
+    let aa3 = new Set(aa2);
+    console.log(aa3);   
+}
+trunglap();
+
+//bai3
+function bai3(array){
+    array.sort();
+    let max = [0,0];
+    let solan =1;
+    for (let i = array.length-1; i > 0; --i) {
+        if (array[i] == array[i-1]) ++solan;
+        else{
+             if (max[1] < solan){ 
+                  max[0] = array[i];
+                  max[1] = solan;   
+             }
+             solan = 1;
+        }
+    }
+    console.log( "value "+max[0]+" count "+max[1]);
+}
+let array = [1, 2, 3, 5, 6, 4, 2, 1, 6, 3, 5, 3]
+bai3(array);
+
+
+ </script>
+</html>

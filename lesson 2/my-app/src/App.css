@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.box{
+  background-color: gray;
+  padding: 200px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  margin-left: 500px;
+  margin-right: 500px;
+  color: white;
+
+}
+.text{
+  font-size: 40px;
+}
+.text2-text ul{
+  list-style-type: none;
+}
+.text2-text li{
+  display: inline-block;
+  font-size: 40px;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+}
+.search{
+  position: relative;
+  display: block;
+  padding: 5px 0px;
+  font-size: 40px;
+}
+.search::after{
+  content: "";
+  height: 2px;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0 ;
+}

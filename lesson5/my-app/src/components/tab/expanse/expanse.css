@@ -1,0 +1,178 @@
+/* .hinhvuong{
+    position:absolute;
+    width: 358px;
+    height: 544px;
+    left: 30px;
+    top: 91px;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+.hinhvuongnho{
+    position:absolute;
+    width: 323px;
+    height: 426px;
+    left: 17px;
+    top:12px;
+}
+.hainut{
+    position:absolute;
+width: 323px;
+height: 48px;
+left: 2px;
+top: 5px;
+background: #F4F7F6;
+border-radius: 40px;
+}
+.nutexp{
+width: 58px;
+height: 17px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #F95B51;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 160px;
+height: 40px;
+left: 143px;
+top: 6px;
+background: rgba(249, 91, 81, 0.1);
+border-radius: 40px;
+border: none;
+}
+.nutin{
+position: absolute;
+width: 50px;
+height: 17px;
+left: 51px;
+top: 17px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #666666;
+border: none;
+}
+.amount-name{
+position:absolute;
+width: 58px;
+height: 15px;
+left: 1px;
+top: 71px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;
+
+}
+
+.amount{
+box-sizing: border-box;
+position:absolute;
+width: 318px;
+height: 50px;
+left: 5px;
+top: 28px;
+border: 1.4px solid #438883;
+border-radius: 8px;
+}
+.date-name{
+position:absolute;
+width: 33px;
+height: 15px;
+left: 1px;
+top: 170px;   
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;}
+.date{
+box-sizing: border-box;
+position:absolute;
+width: 318px;
+height: 50px;
+left: 1px;
+top: 31px;
+border: 1px solid #DDDDDD;
+border-radius: 8px;
+}
+.note-name{
+position:absolute;
+width: 36px;
+height: 15px;
+left: 1px;
+top: 280px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;
+}
+.note{
+box-sizing: border-box;
+position:absolute;
+width: 318px;
+height: 96px;
+left: 1px;
+top: 34px;
+border: 1px solid #DDDDDD;
+border-radius: 8px;
+
+}
+.nut{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    width: 318px;
+    height: 50px;
+    position: absolute;
+    left: 2px;
+    top: 450px;
+    border: 1px solid #438883;
+    border-radius: 40px;
+}
+.chunut{
+    width: 181px;
+    height: 38px;
+    position:absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #438883;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    background-color: white;
+} */
+
+.amount1{
+    color: red;
+}
