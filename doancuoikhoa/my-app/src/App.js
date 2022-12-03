@@ -5,12 +5,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Store from './pages/Store';
 import Navbar from './components/Navbar';
-import ShoppingCartContext from './context/ShoppingCartContext';
+import ShoppingCartProvider from './context/ShoppingCartContext';
 
 function App() {
   return (
 <div>
-  <ShoppingCartContext>
+  <ShoppingCartProvider>
  <Navbar/>
   <Container className='mb-4'>
   <Routes>
@@ -19,7 +19,7 @@ function App() {
     <Route path='/about' element={<About/>}/>
   </Routes>
   </Container>
-  </ShoppingCartContext>
+  </ShoppingCartProvider>
 </div>
 
  
