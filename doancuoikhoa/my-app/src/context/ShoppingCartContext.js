@@ -1,7 +1,7 @@
 import {createContext, useContext, useState} from "react";
 import { ShoppingCart } from "../components/Shoppingcart";
 
-const ShoppingCartContext = createContext({});
+export const ShoppingCartContext = createContext({});
 
 export function useShoppingCart() {
     return useContext(ShoppingCartContext)
@@ -65,10 +65,39 @@ export function ShoppingCartProvider ({children}) {
             return currItems.filter(item => item.id !==id)
         })
     }
- 
+
+
+    {/*Phần Phương */}
+    const [userData, setUserData] = useState([
+        {   name : 'Quốc',
+        password : '123456',
+        email : 'quoc@gmail.com',
+        tel : '0912345678'
+    },
+    {   name : 'Linh',
+        password : '123456',
+        email : 'linh@gmail.com',
+        tel : '0912345679'
+    },
+    {   name : 'Phương',
+        password : '123456',
+        email : 'phuong@gmail.com',
+        tel : '0912345680'
+    }
+    ])
+    const [userLogin, setUserLogin] = useState()
+    
+    const value = {
+        userData,
+        setUserData,
+        userLogin,
+        setUserLogin
+       
+    }
+
     return(
             <ShoppingCartContext.Provider value={{getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart,
-            openCart, closeCart, cartItems,cartQuantity,}}>
+            openCart, closeCart, cartItems,cartQuantity, value}}>
                 {children}
                 <ShoppingCart isOpen={isOpen}/>
             </ShoppingCartContext.Provider>
@@ -78,4 +107,3 @@ export function ShoppingCartProvider ({children}) {
 
 
 export default ShoppingCartProvider;
-

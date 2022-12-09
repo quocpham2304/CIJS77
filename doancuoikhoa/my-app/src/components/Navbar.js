@@ -4,7 +4,7 @@ import {FaShoppingCart } from "react-icons/fa";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 function Navbar() {
-    const {openCart, cartQuantity} = useShoppingCart()
+    const {openCart, cartQuantity, value} = useShoppingCart()
     return(
         <NavbarBs sticky="top" className="bg-white shadow-lg mb-3">
             <Container>
@@ -19,6 +19,28 @@ function Navbar() {
                         About
                     </Nav.Link>
                 </Nav>
+
+                {/* Phần Phương thêm vào*/}
+                {value.userLogin === undefined ? 
+                <Nav className="me-auto">
+                    <Nav.Link to ="/register" as={NavLink}>
+                        Register
+                    </Nav.Link>
+                    <Nav.Link to ="/login" as={NavLink}>
+                        Login
+                    </Nav.Link>                    
+                </Nav> :
+                <Nav className="me-auto">
+                    <Nav.Link to ="/store" as={NavLink}>
+                        {value.userLogin.name}
+                        <Nav.Link to="/store"/>
+                    </Nav.Link>
+                    <Nav.Link to ="/store" as={NavLink}>
+                        Đơn hàng
+                    </Nav.Link>                    
+                </Nav>}
+
+                
                 {cartQuantity>0 &&(
                 <Button onClick={openCart} style={{ width:"3rem",height:"3rem", position:"relative"}}
                 variant="outline-primary">
