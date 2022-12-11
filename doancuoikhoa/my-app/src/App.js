@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import {Container} from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,25 +11,25 @@ import ShoppingCartProvider from './context/ShoppingCartContext';
 
 function App() {
   return (
-<div>
-  <ShoppingCartProvider>
- <Navbar/>
-  <Container className='mb-4'>
-  <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/store' element={<Store/>}/>
-    <Route path='/about' element={<About/>}/>
+    <div>
+      <ShoppingCartProvider>
+        <Navbar />
+        <Container className='mb-4'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/store' element={<Store />} />
+            <Route path='/about' element={<About />} />
 
-    {/*Phần Phương thêm vào */}
-    <Route path='/register' element={<Register/>}/>
-    <Route path='/login' element={<Login/>}/>
-    
-  </Routes>
-  </Container>
-  </ShoppingCartProvider>
-</div>
+            {/*Phần Phương thêm vào */}
+            <Route path='/register' element={<Register />} />
+            <Route path='/login' element={<Login />} />
 
- 
+          </Routes>
+        </Container>
+      </ShoppingCartProvider>
+    </div>
+
+
   );
 }
 
