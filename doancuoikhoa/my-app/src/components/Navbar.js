@@ -35,9 +35,9 @@ function Navbar() {
                             {value.userLogin.name}
                             <Nav.Link to="/store" />
                         </Nav.Link>
-                        <Nav.Link to="/store" as={NavLink}>
+                        {/* <Nav.Link to="/store" as={NavLink}>
                             Đơn hàng
-                        </Nav.Link>
+                        </Nav.Link> */}
                     </Nav>}
 
 
