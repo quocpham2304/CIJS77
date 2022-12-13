@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/webdoan/static/css/main.c2948fae.css",
+    "main.js": "/webdoan/static/js/main.9bf5c8d3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/webdoan/static/js/787.28cb0dcd.chunk.js",
+    "static/media/parallax.jpg": "/webdoan/static/media/parallax.a15bfc333cf52badcf41.jpg",
+    "static/media/popular-dish-image-2.jpg": "/webdoan/static/media/popular-dish-image-2.e7ae971727546c0b158d.jpg",
+    "static/media/slider.jpg": "/webdoan/static/media/slider.acb8199d7edf1b6752f7.jpg",
+    "static/media/popular-dish-image-1.jpg": "/webdoan/static/media/popular-dish-image-1.5756b28d3a456673ac9c.jpg",
+    "static/media/blog-thumbnail-image-1.jpg": "/webdoan/static/media/blog-thumbnail-image-1.4236438381d6bb0cc644.jpg",
+    "static/media/popular-dish-image-4.jpg": "/webdoan/static/media/popular-dish-image-4.6988a80be94336d5e467.jpg",
+    "static/media/popular-dish-image-3.jpg": "/webdoan/static/media/popular-dish-image-3.18ac0d0760040f5f86f2.jpg",
+    "static/media/blog-thumbnail-image-2.jpg": "/webdoan/static/media/blog-thumbnail-image-2.2a4013ef0c239c2fc4a7.jpg",
+    "static/media/logo-brand.svg": "/webdoan/static/media/logo-brand.7ca47229b32faed973dd4ab856e52f7f.svg",
+    "static/media/service-icon-3.svg": "/webdoan/static/media/service-icon-3.b35b2d933f02229ec66f5a9449480288.svg",
+    "static/media/service-icon-2.svg": "/webdoan/static/media/service-icon-2.51381dfc408041601269cc4df288fb6b.svg",
+    "static/media/service-icon-1.svg": "/webdoan/static/media/service-icon-1.5ca3ba11fdcb1325eb58ee15303760df.svg",
+    "index.html": "/webdoan/index.html",
+    "main.c2948fae.css.map": "/webdoan/static/css/main.c2948fae.css.map",
+    "main.9bf5c8d3.js.map": "/webdoan/static/js/main.9bf5c8d3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/webdoan/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2948fae.css",
+    "static/js/main.9bf5c8d3.js"
+  ]
+}
